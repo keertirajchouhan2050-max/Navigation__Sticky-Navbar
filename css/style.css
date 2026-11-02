@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    box-shadow: 0 0 16px  0 #ddd;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 32px;
+
+
+}
+a{
+    text-decoration: none;
+    color: #323232;
+    font-family: sans-serif;
+
+
+}
+a:hover{
+    color: skyblue;
+
+}
+#img-box{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
