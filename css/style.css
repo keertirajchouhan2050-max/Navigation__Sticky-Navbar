@@ -1,48 +1,89 @@
-body{
-    padding: 0;
-    margin: 0;
-
+body {
+  padding: 0;
+  margin: 0;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
-    box-shadow: 0 0 16px  0 #ddd;
+  box-shadow: 0 0 16px 0 #ddd;
   position: sticky;
   top: 0;
   left: 0;
   background-color: white;
-
+}
+li {
+  list-style: none;
+  display: flex;
+  column-gap: 32px;
+}
+a {
+  text-decoration: none;
+  color: #323232;
+  font-family: sans-serif;
+}
+a:hover {
+  color: skyblue;
+}
+#img-box {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  height: 720px;
+  background-image: url("../images/pexels-pixabay-256502.jpg");
+    background-size: cover;
 
 }
-li{
-    list-style: none;
-    display: flex;
-    column-gap: 32px;
 
-
-}
-a{
-    text-decoration: none;
-    color: #323232;
-    font-family: sans-serif;
-
-
-}
-a:hover{
-    color: skyblue;
-
-}
-#img-box{
-    padding-top: 100px;
-    padding-bottom: 100px;
+#dark{
+    height: 100%;
+    background-color: rgba(0 ,0, 0,0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+}
+#dark h3{
+    font-family: sans-serif;
+    color: orange;
+    font-size: 60px;
+
+
+}
+#dark h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+     
+
+}
+#dark button{
+    border-style: none;
+    background-color: orange;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+
+
+}
+#dark button:hover{
+    background-color: orangered;
 }
